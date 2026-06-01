@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-titles: "Konkhmer Sleokchher", serif;
+  --font-parag: "Lato", sans-serif;
+}
