@@ -1,21 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <!-- icona -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- titolo tab -->
-    <title>CicalaRiparazioni</title>
-    <!-- fonts 1 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- fonts 2 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- SEO base -->
+    <title>Cicala Riparazioni | Saldature e riparazioni industriali a Grottaglie</title>
+    <meta
+      name="description"
+      content="Cicala Riparazioni offre manutenzioni industriali, carpenteria metallica e saldature di precisione a Grottaglie, Taranto e Brindisi."
+    />
+
+    <!-- Icona -->
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.svg" />
+
+    <!-- Immagine principale/LCP -->
+    <link
+      rel="preload"
+      as="image"
+      href="/jumbo.webp"
+      type="image/webp"
+      fetchpriority="high"
+    />
+
+    <!-- Google Fonts: un solo collegamento, caricato senza bloccare il rendering -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      />
+    </noscript>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
