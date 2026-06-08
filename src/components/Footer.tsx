@@ -52,9 +52,8 @@ export default function Footer() {
             </h3>
             <div className="text-[12px] lg:text-[14px] leading-[19px] lg:leading-[21px] text-white/85">
               <p>Cicala Riparazioni di Cicala Ciro</p>
-              <p>P.IVA: 01234567890</p>
-              <p>C.F.: CCLMRA70A01E123Y</p>
-              <p>REA: TA-123456</p>
+              <p>P.IVA: 03405210737</p>
+              <p>Via Ennio, 167 int.1</p>
             </div>
           </div>
         </div>

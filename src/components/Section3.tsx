@@ -6,22 +6,16 @@ const contacts = [
         label: "Whatsapp",
     },
     {
-        href: "mailto:info@cicalariparazioni.it",
+        href: "mailto:cicalariarazioni@gmail.com",
         imgSrc: "/ContactIcons/email.svg",
         alt: "Email",
         label: "Email",
     },
     {
-        href: "https://www.instagram.com/cicalariparazioni",
+        href: "https://www.instagram.com/cc_riparazioni",
         imgSrc: "/ContactIcons/ig.svg",
         alt: "Instagram",
         label: "Instagram",
-    },
-    {
-        href: "https://www.facebook.com/cicalariparazioni",
-        imgSrc: "/ContactIcons/fb.svg",
-        alt: "Facebook",
-        label: "Facebook",
     },
 ]
 
