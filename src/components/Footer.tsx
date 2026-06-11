@@ -100,12 +100,13 @@ export default function Footer() {
           <p className="md:hidden">© 2026 Cicala Riparazioni.</p>
           <p className="hidden md:block">© 2026 Cicala Riparazioni. Tutti i diritti riservati.</p>
           <div className="flex gap-[14px] md:gap-[18px] md:px-[5%]">
-            <button
-              onClick={() => setShowPrivacy(true)}
-              className="hover:text-white/60 transition-colors cursor-pointer"
-            >
-              Privacy Policy
-            </button>
+              <span className="text-white/30">Sito realizzato da <a href="https://semplivo.fspadaro.it" target="_blank" rel="noreferrer" className="text-[#1570EF] hover:text-white transition-colors underline underline-offset-2">Semplivo</a></span>
+              <button
+                  onClick={() => setShowPrivacy(true)}
+                  className="hover:text-white/60 transition-colors cursor-pointer"
+              >
+                  Privacy Policy
+              </button>
           </div>
         </div>
       </footer>

@@ -26,7 +26,7 @@ export default function Section3(){
                 <h2 className="font-titles text-[#162556] text-2xl md:text-[26px] lg:text-3xl">Contattaci</h2>
                 <hr className="border-[#1B61FD] mt-3 border-3 w-[42%] md:w-[50%] lg:w-[60%]"/>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:flex gap-5 md:gap-7 lg:gap-[15%] px-[5%] pt-[8%] md:pt-[5%] pb-[7%] md:pb-[4%] lg:pb-[3%]'>
+           <div className='grid grid-cols-1 sm:grid-cols-3 lg:flex gap-5 md:gap-7 lg:justify-between px-[5%] pt-[8%] md:pt-[5%] pb-[7%] md:pb-[4%] lg:pb-[3%]'>
                 {contacts.map((contact) => (
                     <a
                         key={contact.label}
