@@ -1,5 +1,5 @@
-const phoneDisplay = "312 123 4567"
-const phoneHref = "tel:+393121234567"
+const phoneDisplay = "327 734 4161"
+const phoneHref = "tel:+393277344161"
 
 export default function Navbar (){
     return(
@@ -15,14 +15,14 @@ export default function Navbar (){
 
             <a
                 href={phoneHref}
-                    aria-label={`Chiama ${phoneDisplay}`}
-                    className="flex gap-2 md:gap-3 ml-auto mr-[5%] items-center group transition-transform duration-200 hover:-translate-y-0.5"
-                >
-                    <img src="/phone.svg" alt="phone" width={32} height={32} className="w-6 h-6 md:w-6 md:h-6 lg:w-8 lg:h-8" />
-                    <span className="hidden md:block font-titles text-3xl text-[#1B61FD] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-[#1C398E] after:to-[#1B61FD] after:transition-all after:duration-300 group-hover:after:w-full">
-                        {phoneDisplay}
-                    </span>
-                </a>
+                aria-label={`Chiama ${phoneDisplay}`}
+                className="flex gap-2 md:gap-3 ml-auto mr-[5%] items-center group transition-transform duration-200 hover:-translate-y-0.5"
+            >
+                <img src="/phone.svg" alt="phone" width={32} height={32} className="w-6 h-6 md:w-6 md:h-6 lg:w-8 lg:h-8" />
+                <span className="hidden md:block font-titles text-3xl text-[#1B61FD] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-[#1C398E] after:to-[#1B61FD] after:transition-all after:duration-300 group-hover:after:w-full">
+                    {phoneDisplay}
+                </span>
+            </a>
         </header>
     )
 }

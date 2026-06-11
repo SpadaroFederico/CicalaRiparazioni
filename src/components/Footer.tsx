@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-[#101828] text-white font-parag pt-[18px] md:pt-[22px] pb-[10px] px-[5%] lg:pr-0">
-        {/* Tablet e desktop: stessa struttura a 3 colonne */}
+        {/* Tablet e desktop */}
         <div className="hidden md:grid grid-cols-3 gap-6 lg:gap-16">
           {/* Colonna 1 */}
           <div>
@@ -54,11 +54,12 @@ export default function Footer() {
               <p>Cicala Riparazioni di Cicala Ciro</p>
               <p>P.IVA: 03405210737</p>
               <p>Via Ennio, 167 int.1</p>
+              <p>74023 Grottaglie (TA)</p>
             </div>
           </div>
         </div>
 
-        {/* Mobile: titolo sopra, solo orari e note legali affiancati */}
+        {/* Mobile */}
         <div className="md:hidden">
           <h3 className="font-titles text-[25px] font-bold mb-[4px] whitespace-nowrap">
             Cicala <span className="text-[#1570EF]">Riparazioni</span>
@@ -81,13 +82,19 @@ export default function Footer() {
                 Note legali
               </h3>
               <div className="text-[10px] min-[390px]:text-[11px] leading-[17px] text-white/85 whitespace-nowrap">
-                <p>P.IVA: 01234567890</p>
-                <p>C.F.: CCLMRA70A01E123Y</p>
-                <p>REA: TA-123456</p>
+                <p>Cicala Riparazioni di Cicala Ciro</p>
+                <p>P.IVA: 03405210737</p>
+                <p>Via Ennio, 167 int.1</p>
+                <p>74023 Grottaglie (TA)</p>
               </div>
             </div>
           </div>
         </div>
+
+        {/* SEO - contenuto indicizzabile, non visibile */}
+        <p className="sr-only">
+          Cicala Riparazioni è un'officina specializzata in saldatura e carpenteria metallica con sede a Grottaglie, in provincia di Taranto, attiva su tutto il territorio pugliese. Eseguiamo saldature ad elettrodo, saldature MIG e TIG, anche senza corrente di rete e in spazi ristretti o difficili da raggiungere. Operiamo come fabbri industriali qualificati su commessa privata e industriale, con interventi rapidi direttamente in cantiere o presso la nostra officina. Siamo specializzati nella riparazione e manutenzione di macchinari agricoli, escavatori, pale meccaniche, benne da scavo, trituratori industriali, frantuma sassi, frangiroccia e macchine da demolizione. Realizziamo carpenteria metallica su misura: strutture in ferro, telai, supporti, rinforzi strutturali e componenti in acciaio di qualsiasi tipologia. Costruiamo e sostituiamo lame e sottolame in Hardox per macchine operatrici di ogni marca e dimensione. Interveniamo con riporti anti usura su organi soggetti a sollecitazioni intense, eseguiamo saldature certificate con rilascio di documentazione per conto terzi. Operiamo regolarmente nei comuni di Grottaglie, Taranto, Manduria, Francavilla Fontana, Martina Franca, Massafra, Castellaneta, nella provincia di Taranto e nei comuni di Brindisi, Ostuni, Fasano, Cisternino, Carovigno, San Vito dei Normanni, nella provincia di Brindisi. Raggiungiamo inoltre Lecce, Bari, Foggia e qualsiasi altra provincia pugliese per interventi urgenti o su appuntamento. La nostra officina fabbro a Grottaglie offre riparazioni industriali, lavorazioni in ferro e acciaio, manutenzione attrezzature da cantiere, ripristino di mezzi movimento terra, interventi su impianti agricoli e industriali. Contattaci per un preventivo gratuito per saldature, riparazioni e lavorazioni metalliche in tutta la Puglia.
+        </p>
 
         <div className="border-t border-white/10 mt-[18px] md:mt-[20px] pt-[8px] flex items-center justify-between gap-4 text-[9px] md:text-[10px] text-white/30 whitespace-nowrap">
           <p className="md:hidden">© 2026 Cicala Riparazioni.</p>

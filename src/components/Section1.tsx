@@ -11,8 +11,8 @@ export default function Section1(){
             <div className='grid grid-cols-1 md:grid-cols-3 lg:flex lg:justify-between px-[5%] pt-[8%] md:pt-[5%] pb-[7%] md:pb-[4%] lg:pb-[3%] gap-6 md:gap-5 lg:gap-8'>
                 <Minicard Icon={Wrench} title="Manutenzioni e riparazioni" text="Interventi rapidi e risolutivi su macchinari, attrezzature e mezzi industriali." />
                 <Minicard Icon={Hammer} title="Carpenteria metallica" text="Strutture e componenti in qualsiasi tipologia di metallo realizzati su misura in base alle esigenze." />
-                <Minicard imgSrc="/welding.svg" title="Saldature di precisione" text="Saldature eseguite da addetti qualificati anche senza l'ausilio di corrente di rete, anche in condizioni e spazi difficili." />
+                <Minicard imgSrc="/welding.svg" title="Saldature di precisione" text="Saldature eseguite da addetti qualificati anche senza l'ausilio di corrente di rete, in condizioni e spazi difficili." />
             </div>
         </section>
     )
-}8
+}

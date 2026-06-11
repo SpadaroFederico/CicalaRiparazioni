@@ -1,12 +1,12 @@
 const contacts = [
     {
-        href: "https://wa.me/393121234567",
+        href: "https://wa.me/393277344161",
         imgSrc: "/ContactIcons/ws.svg",
         alt: "WhatsApp",
         label: "Whatsapp",
     },
     {
-        href: "mailto:cicalariarazioni@gmail.com",
+        href: "mailto:cicalariparazioni@gmail.com",
         imgSrc: "/ContactIcons/email.svg",
         alt: "Email",
         label: "Email",
