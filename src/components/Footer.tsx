@@ -38,10 +38,6 @@ export default function Footer() {
                 <span>Sabato:</span>
                 <span>7:00 - 19:00</span>
               </div>
-              <div className="flex justify-between border-b border-white/10 py-[8px]">
-                <span>Domenica:</span>
-                <span className="text-white/35">Chiuso</span>
-              </div>
             </div>
           </div>
 
