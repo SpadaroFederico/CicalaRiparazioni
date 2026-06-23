@@ -31,11 +31,7 @@ export default function Footer() {
             <div className="w-[54px] h-[2px] bg-[#1570EF] mb-[12px]" />
             <div className="w-[138px] text-[12px] lg:text-[13px]">
               <div className="flex justify-between border-b border-white/10 pb-[8px]">
-                <span>Lun - Ven:</span>
-                <span>7:00 - 19:00</span>
-              </div>
-              <div className="flex justify-between border-b border-white/10 py-[8px]">
-                <span>Sabato:</span>
+                <span>Lun - Sab:</span>
                 <span>7:00 - 19:00</span>
               </div>
             </div>
@@ -67,8 +63,7 @@ export default function Footer() {
                 Orari
               </h3>
               <div className="text-[10px] min-[390px]:text-[11px] leading-[17px] font-bold whitespace-nowrap">
-                <p>Lun - Ven: 7:00 - 19:00</p>
-                <p>Sabato: 7:00 - 19:00</p>
+                <p>Lun - Sab: 7:00 - 19:00</p>
               </div>
             </div>
 
