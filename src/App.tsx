@@ -11,7 +11,6 @@ import SiteBlocked from './components/SiteBlocked'
 export default function App(){
   return(
   <StrictMode>
-    <SiteBlocked/>
     <Navbar/>
     <Jumbotron/>
     <Section1/>
